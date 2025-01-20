@@ -14,7 +14,7 @@ extension ContentView {
         let player = AVPlayer(url: Bundle.main.url(forResource: "background", withExtension: "mp4")!)
         let displayContent: [DisplayContent] = [
             .init(text: "This is some text", subtext: "This is some subtext", animationDelay: 2, alignment: .leading),
-            .init(text: "This is some text", subtext: "This is some subtext", animationDelay: 2, alignment: .trailing),
+            .init(text: "This is some other text", subtext: "This is some subtext", animationDelay: 2, alignment: .trailing),
         ]
 
         private var scrollViewHeight: CGFloat = 0

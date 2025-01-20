@@ -14,9 +14,11 @@ struct DisplayContentView: View {
         VStack(alignment: .leading) {
             Text(content.text)
                 .font(.title)
-            Spacer()
         }
-        .frame(maxWidth: .infinity, alignment: content.alignment)
+        .padding()
+        .background(.ultraThinMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .font(.headline)
     }
 }
 

@@ -42,7 +42,6 @@ struct ContentView: View {
                                         width: geometry.size.width,
                                         height: geometry.size.height
                                     )
-                                    .border(.pink)
                             }
                         }
                         .background(GeometryReader { proxy in
